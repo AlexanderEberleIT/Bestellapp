@@ -6,9 +6,9 @@
         <title>Bestellapp</title>
         <link rel="icon" type="image/png" href="assets/img/hero-icon.png" />
         <link rel="stylesheet" href="style.css" />
-        <script src="array.js" defer></script>
-        <script src="templates.js" defer></script>
-        <script src="script.js" defer></script>
+        <script defer src="array.js"></script>
+        <script defer src="templates.js"></script>
+        <script defer src="script.js"></script>
     </head>
     <body id="start">
         <header class="pageHeader">
@@ -43,6 +43,25 @@
                         alt=""
                     />
                 </div>
+                <section
+                    class="restaurantInfo"
+                    aria-labelledby="restaurant-name"
+                >
+                    <h1 id="restaurant-name"><span>Burger</span>House</h1>
+
+                    <p class="rating">
+                        <img src="assets/icons/star-icon.png" alt="" />
+                        Bewertung (4,1 von 5 Sternen)
+                    </p>
+
+                    <p>Burger, Pizza und frische Salate. Lieferung 4,99 €.</p>
+                </section>
+                <nav class="categoryNav" aria-label="Kategorien">
+                    <a href="#burger">Burger & Sandwiches</a>
+                    <a href="#pizza">Pizza</a>
+                    <a href="#salate">Salate</a>
+                </nav>
+                <div id="menuList" class="menuList"></div>
             </div>
         </main>
     </body>

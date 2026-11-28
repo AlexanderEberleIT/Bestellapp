@@ -55,5 +55,94 @@ body {
     box-sizing: border-box;
     border-radius: 50%;
     background: rgb(255, 255, 255);
-    border: 1px solid rgb(229, 227, 223);
+    border: 1px solid rgb(229, 227, 220);
+}
+
+.restaurantInfo {
+    padding: 16px;
+}
+
+.restaurantInfo h1,
+.restaurantInfo p {
+    margin: 5px;
+}
+
+.restaurantInfo h1 span {
+    color: rgb(154, 69, 0);
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(154, 69, 0);
+}
+
+.rating img {
+    width: 16px;
+    height: 16px;
+}
+
+.categoryNav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 8px 16px;
+    background: rgb(245, 243, 239);
+}
+
+.categoryNav a {
+    color: rgb(75, 73, 69);
+    text-decoration: none;
+}
+
+.categoryNav a:hover {
+    color: rgb(154, 69, 0);
+    text-decoration: underline;
+}
+
+.menuList {
+    padding: 16px;
+}
+
+.dishCard {
+    position: relative;
+    padding: 12px 56px 12px 15px;
+    margin-bottom: 14px;
+    border: 1px solid rgb(229, 227, 220);
+}
+
+.dishCard h3,
+.dishCard p {
+    margin: 0 0 8px;
+}
+
+.dishPrice {
+    color: rgb(154, 69, 0);
+}
+
+.addButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 1px solid rgb(229, 227, 220);
+    background: rgb(255, 255, 255);
+    color: rgb(154, 69, 0);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menuCategory h2 {
+    margin: 0 -16px 12px;
+    padding: 8px 16px;
+    background: rgb(230, 107, 24);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
